@@ -11,11 +11,13 @@
 		"astro": "astro"
 	},
 	"dependencies": {
-		"@astrojs/node": "^5.3.0",
+		"@astrojs/node": "latest",
+		"@astrojs/vercel": "^5.2.0",
 		"@lucia-auth/adapter-sqlite": "latest",
 		"@lucia-auth/oauth": "latest",
-		"astro": "^3.0.0",
+		"astro": "^3.2.3",
 		"better-sqlite3": "^8.4.0",
+                "serverless": "link:@astrojs/vercel/serverless",
 		"lucia": "latest"
 	},
 	"devDependencies": {
